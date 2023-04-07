@@ -1,0 +1,159 @@
+h1{
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+    font-family: "Arial Black", sans-serif;
+    font-size: 36px;
+    color: #0076b6; /* Detroit Lions Blue */
+} 
+
+.skip {
+    background-color: #0047AB;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+}
+
+.skip:hover {
+    background-color: #235EA7;
+}
+
+nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+
+
+/* mobile view */
+main {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    
+}
+
+
+
+#owner img,
+#GM img,
+#HC img,
+#OC img,
+#DC img {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin: auto;
+    
+    justify-items: center;
+    align-items: center;
+
+}
+
+/* #owner1 p,
+#GM1 p,
+#HC1 p,
+#OC1 p,
+#DC1 p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: black;
+} */
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #0076b6;
+}
+/* 
+.about{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    place-items:center;
+    margin: 100px;
+
+}
+
+
+#owner1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+#owner{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 300;
+    height: 300;
+    object-fit: fill;
+}
+
+#GM{
+    
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 300;
+    height: 300;
+    object-fit: fill;
+}
+
+#HC{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 300;
+    height: 300;
+    object-fit: fill;
+}
+
+#OC{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 300;
+    height: 300;
+    object-fit: fill;
+}
+
+#DC{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 300;
+    height: 300;
+    object-fit: fill;
+} */
